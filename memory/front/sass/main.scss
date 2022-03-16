@@ -1,0 +1,102 @@
+//variable sass
+$largeur-jeu:700px;
+//$couleur-bordure:#336;
+//$couleur-de-fond:#aaa;
+$couleur-de-fond:#e8d21d;
+$couleur-bordure:#e52165;
+
+
+//Les mixins permettent de stocker des propriétés et même de les paramètrer.
+@mixin selection-image($index) {
+    background-position: 0px 0px - 100px * $index;
+}
+
+//Génération automatique de 14 classes pour récupérer l'image de chaque fruit.
+@for $i from 1 through 14 {
+    .fruit#{$i} {
+        @include selection-image($i - 1);
+    }
+}
+
+// Style pour un zone de séléction
+.zone-de-selection {
+    // Affiche les cartes les unes à côté des autres.
+    display: inline-block;
+
+
+    // Code commun selon la visibilité de la carte.
+    .carte {
+        border: solid 3px $couleur-bordure;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+        // code spécifique si la carte est visible.
+        &-visible {
+            background-image: url(../image/cartes.png);
+        }
+        // code spécifique si la carte est cachée.
+        &-cachee {
+            background-color: $couleur-de-fond;
+            background-image: none;
+            border-color: $couleur-bordure;
+
+            /*Style au survol d'une arte cachee*/
+            &:hover {
+                box-shadow: 0px 0px 3px 1px $couleur-bordure;
+            }
+        }
+    }
+}
+
+// Règle que tout les contenus soient centrées.
+.container {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+// Définit la taille de l'affichage des cartes.
+#jeu {
+    width: $largeur-jeu;
+    margin: auto;
+}
+
+/*Définition de la structure le la barre de progression*/
+#progress-bar {
+    border: solid 1px $couleur-bordure;
+    width: $largeur-jeu;
+    /*Rogne le contenu de trop dans la barre de progression*/
+    overflow: hidden;
+    margin-left: 5px;
+    margin-top: 5px;
+    /*Arrondi de la barre de progression*/
+    border-radius: 5px;
+    margin: auto;
+    /*Définition du contenu de la barre de progression*/
+}
+
+#progress-bar-remplissage {
+    background-color: #7FDD4C;
+    height: 10px;
+    width: 0%;
+    /*Fluidifie le chargement de la barre de progression*/
+    transition: all 1s linear;
+}
+
+/*Style pour les éléments définissant 'scores' dans l'attribut class*/
+#scores {
+    width: $largeur-jeu;
+    margin-top: 50px;
+    border: 1px solid $couleur-bordure;
+    background-color: $couleur-de-fond;
+    font-size: 20pt;
+    padding: 1%;
+    /*Centrage horizontal*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Taille fixée sur le contenu*/
+* {
+    box-sizing: border-box;
+}

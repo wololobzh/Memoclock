@@ -1,0 +1,15 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "Jeu de mémoire",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./memory/front/sass/main.scss:./memory/front/css/style.css"
+  },
+  "keywords": [],
+  "author": "acosson",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}

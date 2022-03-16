@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.fruit1 {
+  background-position: 0px 0px;
+}
+
+.fruit2 {
+  background-position: 0px -100px;
+}
+
+.fruit3 {
+  background-position: 0px -200px;
+}
+
+.fruit4 {
+  background-position: 0px -300px;
+}
+
+.fruit5 {
+  background-position: 0px -400px;
+}
+
+.fruit6 {
+  background-position: 0px -500px;
+}
+
+.fruit7 {
+  background-position: 0px -600px;
+}
+
+.fruit8 {
+  background-position: 0px -700px;
+}
+
+.fruit9 {
+  background-position: 0px -800px;
+}
+
+.fruit10 {
+  background-position: 0px -900px;
+}
+
+.fruit11 {
+  background-position: 0px -1000px;
+}
+
+.fruit12 {
+  background-position: 0px -1100px;
+}
+
+.fruit13 {
+  background-position: 0px -1200px;
+}
+
+.fruit14 {
+  background-position: 0px -1300px;
+}
+
+.zone-de-selection {
+  display: inline-block;
+}
+.zone-de-selection .carte {
+  border: solid 3px #e52165;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.zone-de-selection .carte-visible {
+  background-image: url(../image/cartes.png);
+}
+.zone-de-selection .carte-cachee {
+  background-color: #e8d21d;
+  background-image: none;
+  border-color: #e52165;
+  /*Style au survol d'une arte cachee*/
+}
+.zone-de-selection .carte-cachee:hover {
+  box-shadow: 0px 0px 3px 1px #e52165;
+}
+
+.container {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#jeu {
+  width: 700px;
+  margin: auto;
+}
+
+/*Définition de la structure le la barre de progression*/
+#progress-bar {
+  border: solid 1px #e52165;
+  width: 700px;
+  /*Rogne le contenu de trop dans la barre de progression*/
+  overflow: hidden;
+  margin-left: 5px;
+  margin-top: 5px;
+  /*Arrondi de la barre de progression*/
+  border-radius: 5px;
+  margin: auto;
+  /*Définition du contenu de la barre de progression*/
+}
+
+#progress-bar-remplissage {
+  background-color: #7FDD4C;
+  height: 10px;
+  width: 0%;
+  /*Fluidifie le chargement de la barre de progression*/
+  transition: all 1s linear;
+}
+
+/*Style pour les éléments définissant 'scores' dans l'attribut class*/
+#scores {
+  width: 700px;
+  margin-top: 50px;
+  border: 1px solid #e52165;
+  background-color: #e8d21d;
+  font-size: 20pt;
+  padding: 1%;
+  /*Centrage horizontal*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Taille fixée sur le contenu*/
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
