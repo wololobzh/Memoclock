@@ -41,6 +41,9 @@ function miseAJourBarreDeProgression() {
 
     // Selon la valeur de la barre de chargement, on change de couleur. (vert puis orange puis rouge)
     switch (true) {
+    case progress < 33:
+        $('#progress-bar-remplissage').css('background-color', '#7FDD4C');
+        break;
     case progress > 33 && progress < 66:
         $('#progress-bar-remplissage').css('background-color', '#FFA500');
         break;
