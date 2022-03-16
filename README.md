@@ -127,7 +127,7 @@ Pour tester le jeu vous devez :
 
 ![Partie perdue](/assets/screenshot004.PNG)
 
-Si vous avez des questions n'hésitez pas à questionner votre une personne du service pédagogique.
+Si vous avez des questions n'hésitez pas à questionner une personne du service pédagogique.
 
 **Ciao et bon dev !**
 
