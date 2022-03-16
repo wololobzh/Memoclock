@@ -78,7 +78,7 @@ Avoir Docker sur votre poste.
 1. Clonez le repo ou vous voulez grâce à cette commande :
 
 ```
-git clone git@github.com:wololobzh/JeuMemory.git
+git clone git@github.com:wololobzh/Memoclock.git
 ```
 
 2. Positionnez vous dans le dossier du repo puis exécutez ces deux commandes :
