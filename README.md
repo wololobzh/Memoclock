@@ -101,11 +101,11 @@ Pour tester le jeu vous devez :
 
 2. Créer une base de données nommée 'bdd_memory' sur votre serveur MySQL via phpMyAdmin.
 
-3. Définir le contenu de la base de données grâce au script SQL du fichier scripts/ddl.sql du repo git.
+3. Définir le contenu de la base de données grâce au script SQL du fichier [scripts/ddl.sql](https://github.com/wololobzh/Memoclock/blob/master/scripts/ddl.sql)  du repo git. 
 
 4. Mettre le dossier memory dans le dossier nommé 'www' de votre WAMP ou XAMP.
 
-5. Modifier le fichiers www/memory/back/config/Settings.php en indiquant vos propres paramètres pour accèder à votre serveur de base de données. (Un exemple de configuration en commentaire est disponible dans le fichier Settings.php)
+5. Modifier le fichiers [www/memory/back/config/Settings.php](https://github.com/wololobzh/Memoclock/blob/master/memory/back/config/Settings.php) en indiquant vos propres paramètres pour accèder à votre serveur de base de données. (Un exemple de configuration en commentaire est disponible dans le fichier Settings.php)
 
 6. Accéder au jeu via un navigateur à l'adresse http://localhost/memory
 
