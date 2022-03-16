@@ -99,7 +99,7 @@ Pour tester le jeu vous devez :
 
 1. Avoir WAMP ou XAMP en cours d'exécution sur votre poste.
 
-2. Créer une base de données nommée 'bdd_memory' sur votre serveur MySQL via phpMyAdmin et définissez le contenu de la base de données grâce au script SQL du fichier memory/scripts/ddl.sql.
+2. Créer une base de données nommée 'bdd_memory' sur votre serveur MySQL via phpMyAdmin et définissez le contenu de la base de données grâce au script SQL du fichier memory/back/scripts/ddl.sql.
 
 3. Mettre le dossier memory dans le dossier nommé 'www' de votre WAMP ou XAMP.
 
