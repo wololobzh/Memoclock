@@ -109,7 +109,25 @@ Pour tester le jeu vous devez :
 
 6. Accéder au jeu via un navigateur à l'adresse http://localhost/memory
 
+## Screenshot
 
+### Commencement du jeu
+
+![Commencement du jeu](/assets/screenshot001.PNG)
+
+### Durant la partie
+
+![Durant la partie](/assets/screenshot002.PNG)
+
+### Partie gagnée
+
+![Partie gagnée](/assets/screenshot003.PNG)
+
+### Partie perdue
+
+![Partie perdue](/assets/screenshot004.PNG)
+
+Si vous avez des questions n'hésitez pas à questionner votre formateur.
 
 **Ciao et bon dev !**
 
