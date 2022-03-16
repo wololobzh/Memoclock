@@ -95,7 +95,11 @@ En vous connectant à cette adresse : http://localhost:14540
 
 ### Sans Docker
 
-Pour tester le jeu vous devez :
+#### Prérequis
+
+Avoir WAMP ou XAMP sur votre poste.
+
+#### Procédure
 
 1. Avoir WAMP ou XAMP en cours d'exécution sur votre poste.
 
